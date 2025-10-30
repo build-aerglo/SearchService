@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "JbA/ujoxnZs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Infrastructure\\SearchService.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.0-rc.2.25502.107\\microsoft.extensions.configuration.abstractions.10.0.0-rc.2.25502.107.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0-rc.1.25451.107\\microsoft.extensions.dependencyinjection.abstractions.10.0.0-rc.1.25451.107.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0-rc.1.25451.107\\microsoft.extensions.logging.abstractions.10.0.0-rc.1.25451.107.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.0-rc.2.25502.107\\microsoft.extensions.primitives.10.0.0-rc.2.25502.107.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\npgsql\\10.0.0-rc.1\\npgsql.10.0.0-rc.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.0-rc.1.25451.107\\system.diagnostics.diagnosticsource.10.0.0-rc.1.25451.107.nupkg.sha512"
+  ],
+  "logs": []
+}

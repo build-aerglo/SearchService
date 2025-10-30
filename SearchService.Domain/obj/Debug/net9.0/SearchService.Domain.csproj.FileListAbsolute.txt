@@ -1,0 +1,11 @@
+C:\Users\USER\RiderProjects\SearchService\SearchService.Domain\bin\Debug\net9.0\SearchService.Domain.deps.json
+C:\Users\USER\RiderProjects\SearchService\SearchService.Domain\bin\Debug\net9.0\SearchService.Domain.dll
+C:\Users\USER\RiderProjects\SearchService\SearchService.Domain\bin\Debug\net9.0\SearchService.Domain.pdb
+C:\Users\USER\RiderProjects\SearchService\SearchService.Domain\obj\Debug\net9.0\SearchService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\RiderProjects\SearchService\SearchService.Domain\obj\Debug\net9.0\SearchService.Domain.AssemblyInfoInputs.cache
+C:\Users\USER\RiderProjects\SearchService\SearchService.Domain\obj\Debug\net9.0\SearchService.Domain.AssemblyInfo.cs
+C:\Users\USER\RiderProjects\SearchService\SearchService.Domain\obj\Debug\net9.0\SearchService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\USER\RiderProjects\SearchService\SearchService.Domain\obj\Debug\net9.0\SearchService.Domain.dll
+C:\Users\USER\RiderProjects\SearchService\SearchService.Domain\obj\Debug\net9.0\refint\SearchService.Domain.dll
+C:\Users\USER\RiderProjects\SearchService\SearchService.Domain\obj\Debug\net9.0\SearchService.Domain.pdb
+C:\Users\USER\RiderProjects\SearchService\SearchService.Domain\obj\Debug\net9.0\ref\SearchService.Domain.dll

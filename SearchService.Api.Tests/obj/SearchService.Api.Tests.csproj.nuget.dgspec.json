@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Api.Tests\\SearchService.Api.Tests.csproj": {}
+    "/Users/dily/Documents/SearchService/SearchService.Api.Tests/SearchService.Api.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Api.Tests\\SearchService.Api.Tests.csproj": {
+    "/Users/dily/Documents/SearchService/SearchService.Api.Tests/SearchService.Api.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Api.Tests\\SearchService.Api.Tests.csproj",
+        "projectUniqueName": "/Users/dily/Documents/SearchService/SearchService.Api.Tests/SearchService.Api.Tests.csproj",
         "projectName": "SearchService.Api.Tests",
-        "projectPath": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Api.Tests\\SearchService.Api.Tests.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Api.Tests\\obj\\",
+        "projectPath": "/Users/dily/Documents/SearchService/SearchService.Api.Tests/SearchService.Api.Tests.csproj",
+        "packagesPath": "/Users/dily/.nuget/packages/",
+        "outputPath": "/Users/dily/Documents/SearchService/SearchService.Api.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/dily/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -26,11 +26,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Api\\SearchService.Api.csproj": {
-                "projectPath": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Api\\SearchService.Api.csproj"
+              "/Users/dily/Documents/SearchService/SearchService.Api/SearchService.Api.csproj": {
+                "projectPath": "/Users/dily/Documents/SearchService/SearchService.Api/SearchService.Api.csproj"
               },
-              "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Application\\SearchService.Application.csproj": {
-                "projectPath": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Application\\SearchService.Application.csproj"
+              "/Users/dily/Documents/SearchService/SearchService.Application/SearchService.Application.csproj": {
+                "projectPath": "/Users/dily/Documents/SearchService/SearchService.Application/SearchService.Application.csproj"
               }
             }
           }
@@ -43,9 +43,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -96,21 +95,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\USER\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Api\\SearchService.Api.csproj": {
+    "/Users/dily/Documents/SearchService/SearchService.Api/SearchService.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Api\\SearchService.Api.csproj",
+        "projectUniqueName": "/Users/dily/Documents/SearchService/SearchService.Api/SearchService.Api.csproj",
         "projectName": "SearchService.Api",
-        "projectPath": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Api\\SearchService.Api.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Api\\obj\\",
+        "projectPath": "/Users/dily/Documents/SearchService/SearchService.Api/SearchService.Api.csproj",
+        "packagesPath": "/Users/dily/.nuget/packages/",
+        "outputPath": "/Users/dily/Documents/SearchService/SearchService.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/dily/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -122,14 +121,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Application\\SearchService.Application.csproj": {
-                "projectPath": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Application\\SearchService.Application.csproj"
+              "/Users/dily/Documents/SearchService/SearchService.Application/SearchService.Application.csproj": {
+                "projectPath": "/Users/dily/Documents/SearchService/SearchService.Application/SearchService.Application.csproj"
               },
-              "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Domain\\SearchService.Domain.csproj": {
-                "projectPath": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Domain\\SearchService.Domain.csproj"
+              "/Users/dily/Documents/SearchService/SearchService.Domain/SearchService.Domain.csproj": {
+                "projectPath": "/Users/dily/Documents/SearchService/SearchService.Domain/SearchService.Domain.csproj"
               },
-              "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Infrastructure\\SearchService.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Infrastructure\\SearchService.Infrastructure.csproj"
+              "/Users/dily/Documents/SearchService/SearchService.Infrastructure/SearchService.Infrastructure.csproj": {
+                "projectPath": "/Users/dily/Documents/SearchService/SearchService.Infrastructure/SearchService.Infrastructure.csproj"
               }
             }
           }
@@ -142,9 +141,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -195,21 +193,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\USER\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Application\\SearchService.Application.csproj": {
+    "/Users/dily/Documents/SearchService/SearchService.Application/SearchService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Application\\SearchService.Application.csproj",
+        "projectUniqueName": "/Users/dily/Documents/SearchService/SearchService.Application/SearchService.Application.csproj",
         "projectName": "SearchService.Application",
-        "projectPath": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Application\\SearchService.Application.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Application\\obj\\",
+        "projectPath": "/Users/dily/Documents/SearchService/SearchService.Application/SearchService.Application.csproj",
+        "packagesPath": "/Users/dily/.nuget/packages/",
+        "outputPath": "/Users/dily/Documents/SearchService/SearchService.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/dily/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -221,8 +219,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Domain\\SearchService.Domain.csproj": {
-                "projectPath": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Domain\\SearchService.Domain.csproj"
+              "/Users/dily/Documents/SearchService/SearchService.Domain/SearchService.Domain.csproj": {
+                "projectPath": "/Users/dily/Documents/SearchService/SearchService.Domain/SearchService.Domain.csproj"
               }
             }
           }
@@ -235,9 +233,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -258,21 +255,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\USER\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Domain\\SearchService.Domain.csproj": {
+    "/Users/dily/Documents/SearchService/SearchService.Domain/SearchService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Domain\\SearchService.Domain.csproj",
+        "projectUniqueName": "/Users/dily/Documents/SearchService/SearchService.Domain/SearchService.Domain.csproj",
         "projectName": "SearchService.Domain",
-        "projectPath": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Domain\\SearchService.Domain.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Domain\\obj\\",
+        "projectPath": "/Users/dily/Documents/SearchService/SearchService.Domain/SearchService.Domain.csproj",
+        "packagesPath": "/Users/dily/.nuget/packages/",
+        "outputPath": "/Users/dily/Documents/SearchService/SearchService.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/dily/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -294,9 +291,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -317,21 +313,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\USER\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Infrastructure\\SearchService.Infrastructure.csproj": {
+    "/Users/dily/Documents/SearchService/SearchService.Infrastructure/SearchService.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Infrastructure\\SearchService.Infrastructure.csproj",
+        "projectUniqueName": "/Users/dily/Documents/SearchService/SearchService.Infrastructure/SearchService.Infrastructure.csproj",
         "projectName": "SearchService.Infrastructure",
-        "projectPath": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Infrastructure\\SearchService.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Infrastructure\\obj\\",
+        "projectPath": "/Users/dily/Documents/SearchService/SearchService.Infrastructure/SearchService.Infrastructure.csproj",
+        "packagesPath": "/Users/dily/.nuget/packages/",
+        "outputPath": "/Users/dily/Documents/SearchService/SearchService.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/dily/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -343,11 +339,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Application\\SearchService.Application.csproj": {
-                "projectPath": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Application\\SearchService.Application.csproj"
+              "/Users/dily/Documents/SearchService/SearchService.Application/SearchService.Application.csproj": {
+                "projectPath": "/Users/dily/Documents/SearchService/SearchService.Application/SearchService.Application.csproj"
               },
-              "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Domain\\SearchService.Domain.csproj": {
-                "projectPath": "C:\\Users\\USER\\RiderProjects\\SearchService\\SearchService.Domain\\SearchService.Domain.csproj"
+              "/Users/dily/Documents/SearchService/SearchService.Domain/SearchService.Domain.csproj": {
+                "projectPath": "/Users/dily/Documents/SearchService/SearchService.Domain/SearchService.Domain.csproj"
               }
             }
           }
@@ -360,9 +356,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -397,7 +392,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\USER\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

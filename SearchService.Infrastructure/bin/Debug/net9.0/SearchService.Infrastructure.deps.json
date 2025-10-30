@@ -90,7 +90,7 @@
         },
         "runtime": {
           "SearchService.Application.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -98,7 +98,7 @@
       "SearchService.Domain/1.0.0": {
         "runtime": {
           "SearchService.Domain.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

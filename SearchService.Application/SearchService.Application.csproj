@@ -11,9 +11,10 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="DTOs\" />
-      <Folder Include="Interfaces\" />
-      <Folder Include="Services\" />
+      <PackageReference Include="Dapper" Version="2.1.66" />
+      <PackageReference Include="Dapr.AspNetCore" Version="1.16.1" />
+      <PackageReference Include="Elastic.Clients.Elasticsearch" Version="9.2.2" />
+      <PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.0" />
     </ItemGroup>
 
 </Project>

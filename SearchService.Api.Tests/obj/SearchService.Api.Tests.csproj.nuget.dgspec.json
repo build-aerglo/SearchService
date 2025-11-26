@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dily/Documents/SearchService/SearchService.Api.Tests/SearchService.Api.Tests.csproj": {}
+    "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Api.Tests\\SearchService.Api.Tests.csproj": {}
   },
   "projects": {
-    "/Users/dily/Documents/SearchService/SearchService.Api.Tests/SearchService.Api.Tests.csproj": {
+    "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Api.Tests\\SearchService.Api.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dily/Documents/SearchService/SearchService.Api.Tests/SearchService.Api.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Api.Tests\\SearchService.Api.Tests.csproj",
         "projectName": "SearchService.Api.Tests",
-        "projectPath": "/Users/dily/Documents/SearchService/SearchService.Api.Tests/SearchService.Api.Tests.csproj",
-        "packagesPath": "/Users/dily/.nuget/packages/",
-        "outputPath": "/Users/dily/Documents/SearchService/SearchService.Api.Tests/obj/",
+        "projectPath": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Api.Tests\\SearchService.Api.Tests.csproj",
+        "packagesPath": "C:\\Users\\etike\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Api.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/dily/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\etike\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -26,11 +26,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/dily/Documents/SearchService/SearchService.Api/SearchService.Api.csproj": {
-                "projectPath": "/Users/dily/Documents/SearchService/SearchService.Api/SearchService.Api.csproj"
+              "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Api\\SearchService.Api.csproj": {
+                "projectPath": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Api\\SearchService.Api.csproj"
               },
-              "/Users/dily/Documents/SearchService/SearchService.Application/SearchService.Application.csproj": {
-                "projectPath": "/Users/dily/Documents/SearchService/SearchService.Application/SearchService.Application.csproj"
+              "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Application\\SearchService.Application.csproj": {
+                "projectPath": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Application\\SearchService.Application.csproj"
               }
             }
           }
@@ -44,12 +44,21 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "Dapr.AspNetCore": {
+              "target": "Package",
+              "version": "[1.16.1, )"
+            },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.3.0, )"
@@ -95,21 +104,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/dily/Documents/SearchService/SearchService.Api/SearchService.Api.csproj": {
+    "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Api\\SearchService.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dily/Documents/SearchService/SearchService.Api/SearchService.Api.csproj",
+        "projectUniqueName": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Api\\SearchService.Api.csproj",
         "projectName": "SearchService.Api",
-        "projectPath": "/Users/dily/Documents/SearchService/SearchService.Api/SearchService.Api.csproj",
-        "packagesPath": "/Users/dily/.nuget/packages/",
-        "outputPath": "/Users/dily/Documents/SearchService/SearchService.Api/obj/",
+        "projectPath": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Api\\SearchService.Api.csproj",
+        "packagesPath": "C:\\Users\\etike\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/dily/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\etike\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -121,14 +130,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/dily/Documents/SearchService/SearchService.Application/SearchService.Application.csproj": {
-                "projectPath": "/Users/dily/Documents/SearchService/SearchService.Application/SearchService.Application.csproj"
+              "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Application\\SearchService.Application.csproj": {
+                "projectPath": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Application\\SearchService.Application.csproj"
               },
-              "/Users/dily/Documents/SearchService/SearchService.Domain/SearchService.Domain.csproj": {
-                "projectPath": "/Users/dily/Documents/SearchService/SearchService.Domain/SearchService.Domain.csproj"
+              "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Domain\\SearchService.Domain.csproj": {
+                "projectPath": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Domain\\SearchService.Domain.csproj"
               },
-              "/Users/dily/Documents/SearchService/SearchService.Infrastructure/SearchService.Infrastructure.csproj": {
-                "projectPath": "/Users/dily/Documents/SearchService/SearchService.Infrastructure/SearchService.Infrastructure.csproj"
+              "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Infrastructure\\SearchService.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Infrastructure\\SearchService.Infrastructure.csproj"
               }
             }
           }
@@ -142,12 +151,25 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "Dapr.AspNetCore": {
+              "target": "Package",
+              "version": "[1.16.1, )"
+            },
+            "Elastic.Clients.Elasticsearch": {
+              "target": "Package",
+              "version": "[9.2.2, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[9.0.9, )"
@@ -158,11 +180,11 @@
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[10.0.0-rc.2.25502.107, )"
+              "version": "[10.0.0, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[10.0.0-rc.2.25502.107, )"
+              "version": "[10.0.0, )"
             },
             "Npgsql": {
               "target": "Package",
@@ -193,21 +215,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/dily/Documents/SearchService/SearchService.Application/SearchService.Application.csproj": {
+    "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Application\\SearchService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dily/Documents/SearchService/SearchService.Application/SearchService.Application.csproj",
+        "projectUniqueName": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Application\\SearchService.Application.csproj",
         "projectName": "SearchService.Application",
-        "projectPath": "/Users/dily/Documents/SearchService/SearchService.Application/SearchService.Application.csproj",
-        "packagesPath": "/Users/dily/.nuget/packages/",
-        "outputPath": "/Users/dily/Documents/SearchService/SearchService.Application/obj/",
+        "projectPath": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Application\\SearchService.Application.csproj",
+        "packagesPath": "C:\\Users\\etike\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/dily/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\etike\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -219,8 +241,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/dily/Documents/SearchService/SearchService.Domain/SearchService.Domain.csproj": {
-                "projectPath": "/Users/dily/Documents/SearchService/SearchService.Domain/SearchService.Domain.csproj"
+              "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Domain\\SearchService.Domain.csproj": {
+                "projectPath": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Domain\\SearchService.Domain.csproj"
               }
             }
           }
@@ -234,11 +256,30 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "Dapr.AspNetCore": {
+              "target": "Package",
+              "version": "[1.16.1, )"
+            },
+            "Elastic.Clients.Elasticsearch": {
+              "target": "Package",
+              "version": "[9.2.2, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -255,21 +296,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/dily/Documents/SearchService/SearchService.Domain/SearchService.Domain.csproj": {
+    "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Domain\\SearchService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dily/Documents/SearchService/SearchService.Domain/SearchService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Domain\\SearchService.Domain.csproj",
         "projectName": "SearchService.Domain",
-        "projectPath": "/Users/dily/Documents/SearchService/SearchService.Domain/SearchService.Domain.csproj",
-        "packagesPath": "/Users/dily/.nuget/packages/",
-        "outputPath": "/Users/dily/Documents/SearchService/SearchService.Domain/obj/",
+        "projectPath": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Domain\\SearchService.Domain.csproj",
+        "packagesPath": "C:\\Users\\etike\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/dily/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\etike\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -292,11 +333,26 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "Dapr.AspNetCore": {
+              "target": "Package",
+              "version": "[1.16.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -313,21 +369,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/dily/Documents/SearchService/SearchService.Infrastructure/SearchService.Infrastructure.csproj": {
+    "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Infrastructure\\SearchService.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dily/Documents/SearchService/SearchService.Infrastructure/SearchService.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Infrastructure\\SearchService.Infrastructure.csproj",
         "projectName": "SearchService.Infrastructure",
-        "projectPath": "/Users/dily/Documents/SearchService/SearchService.Infrastructure/SearchService.Infrastructure.csproj",
-        "packagesPath": "/Users/dily/.nuget/packages/",
-        "outputPath": "/Users/dily/Documents/SearchService/SearchService.Infrastructure/obj/",
+        "projectPath": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Infrastructure\\SearchService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\etike\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/dily/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\etike\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -339,11 +395,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/dily/Documents/SearchService/SearchService.Application/SearchService.Application.csproj": {
-                "projectPath": "/Users/dily/Documents/SearchService/SearchService.Application/SearchService.Application.csproj"
+              "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Application\\SearchService.Application.csproj": {
+                "projectPath": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Application\\SearchService.Application.csproj"
               },
-              "/Users/dily/Documents/SearchService/SearchService.Domain/SearchService.Domain.csproj": {
-                "projectPath": "/Users/dily/Documents/SearchService/SearchService.Domain/SearchService.Domain.csproj"
+              "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Domain\\SearchService.Domain.csproj": {
+                "projectPath": "C:\\Users\\etike\\Desktop\\Aerglo\\.SearchService\\v-chatgpt\\SearchService\\SearchService.Domain\\SearchService.Domain.csproj"
               }
             }
           }
@@ -357,7 +413,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -367,9 +424,21 @@
               "target": "Package",
               "version": "[2.1.66, )"
             },
+            "Dapr.AspNetCore": {
+              "target": "Package",
+              "version": "[1.16.1, )"
+            },
+            "Elastic.Clients.Elasticsearch": {
+              "target": "Package",
+              "version": "[9.2.2, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[10.0.0-rc.2.25502.107, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[10.0.0, )"
             },
             "Npgsql": {
               "target": "Package",
@@ -392,7 +461,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

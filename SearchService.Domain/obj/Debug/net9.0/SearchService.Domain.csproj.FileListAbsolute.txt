@@ -21,3 +21,16 @@ C:/Users/USER/RiderProjects/SearchService/SearchService.Domain/obj/Debug/net9.0/
 /Users/dily/Documents/SearchService/SearchService.Domain/obj/Debug/net9.0/refint/SearchService.Domain.dll
 /Users/dily/Documents/SearchService/SearchService.Domain/obj/Debug/net9.0/SearchService.Domain.pdb
 /Users/dily/Documents/SearchService/SearchService.Domain/obj/Debug/net9.0/ref/SearchService.Domain.dll
+C:\Users\etike\Desktop\Aerglo\.SearchService\v-chatgpt\SearchService\SearchService.Domain\bin\Debug\net9.0\SearchService.Domain.deps.json
+C:\Users\etike\Desktop\Aerglo\.SearchService\v-chatgpt\SearchService\SearchService.Domain\bin\Debug\net9.0\SearchService.Domain.dll
+C:\Users\etike\Desktop\Aerglo\.SearchService\v-chatgpt\SearchService\SearchService.Domain\bin\Debug\net9.0\SearchService.Domain.pdb
+C:\Users\etike\Desktop\Aerglo\.SearchService\v-chatgpt\SearchService\SearchService.Domain\obj\Debug\net9.0\SearchService.Domain.csproj.AssemblyReference.cache
+C:\Users\etike\Desktop\Aerglo\.SearchService\v-chatgpt\SearchService\SearchService.Domain\obj\Debug\net9.0\SearchService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\etike\Desktop\Aerglo\.SearchService\v-chatgpt\SearchService\SearchService.Domain\obj\Debug\net9.0\SearchService.Domain.AssemblyInfoInputs.cache
+C:\Users\etike\Desktop\Aerglo\.SearchService\v-chatgpt\SearchService\SearchService.Domain\obj\Debug\net9.0\SearchService.Domain.AssemblyInfo.cs
+C:\Users\etike\Desktop\Aerglo\.SearchService\v-chatgpt\SearchService\SearchService.Domain\obj\Debug\net9.0\SearchService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\etike\Desktop\Aerglo\.SearchService\v-chatgpt\SearchService\SearchService.Domain\obj\Debug\net9.0\SearchService.Domain.sourcelink.json
+C:\Users\etike\Desktop\Aerglo\.SearchService\v-chatgpt\SearchService\SearchService.Domain\obj\Debug\net9.0\SearchService.Domain.dll
+C:\Users\etike\Desktop\Aerglo\.SearchService\v-chatgpt\SearchService\SearchService.Domain\obj\Debug\net9.0\refint\SearchService.Domain.dll
+C:\Users\etike\Desktop\Aerglo\.SearchService\v-chatgpt\SearchService\SearchService.Domain\obj\Debug\net9.0\SearchService.Domain.pdb
+C:\Users\etike\Desktop\Aerglo\.SearchService\v-chatgpt\SearchService\SearchService.Domain\obj\Debug\net9.0\ref\SearchService.Domain.dll

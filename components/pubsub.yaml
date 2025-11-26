@@ -1,0 +1,16 @@
+#version: 1
+#apps:
+#  - appID: search-service
+#    appDirPath: .
+#    appPort: 5002
+#    command: ["dotnet", "run"]
+#    daprHTTPPort: 3502
+#    daprGRPCPort: 50002
+
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: pubsub
+spec:
+  type: pubsub.in-memory
+  version: v1

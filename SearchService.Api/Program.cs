@@ -88,5 +88,5 @@ using (var scope = app.Services.CreateScope())
         Console.WriteLine(" Elasticsearch is unreachable. Check config.");
     }
 }
-
+app.UseCors("AllowAll");
 app.Run();

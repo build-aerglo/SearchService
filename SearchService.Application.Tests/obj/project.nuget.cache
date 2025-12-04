@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "80UkSHs7dhE=",
+  "dgSpecHash": "Sye4yU1lUkk=",
   "success": true,
   "projectFilePath": "/Users/dily/Documents/SearchService/SearchService.Application.Tests/SearchService.Application.Tests.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "/Users/dily/.nuget/packages/coverlet.collector/6.0.2/coverlet.collector.6.0.2.nupkg.sha512",
     "/Users/dily/.nuget/packages/microsoft.applicationinsights/2.23.0/microsoft.applicationinsights.2.23.0.nupkg.sha512",
     "/Users/dily/.nuget/packages/microsoft.codecoverage/17.11.1/microsoft.codecoverage.17.11.1.nupkg.sha512",
+    "/Users/dily/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.0-rc.1.25451.107/microsoft.extensions.dependencyinjection.abstractions.10.0.0-rc.1.25451.107.nupkg.sha512",
+    "/Users/dily/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.0-rc.1.25451.107/microsoft.extensions.logging.abstractions.10.0.0-rc.1.25451.107.nupkg.sha512",
     "/Users/dily/.nuget/packages/microsoft.net.test.sdk/17.11.1/microsoft.net.test.sdk.17.11.1.nupkg.sha512",
     "/Users/dily/.nuget/packages/microsoft.testing.extensions.telemetry/1.9.0/microsoft.testing.extensions.telemetry.1.9.0.nupkg.sha512",
     "/Users/dily/.nuget/packages/microsoft.testing.extensions.trxreport.abstractions/1.9.0/microsoft.testing.extensions.trxreport.abstractions.1.9.0.nupkg.sha512",
@@ -22,7 +24,7 @@
     "/Users/dily/.nuget/packages/nunit/4.2.2/nunit.4.2.2.nupkg.sha512",
     "/Users/dily/.nuget/packages/nunit.analyzers/4.3.0/nunit.analyzers.4.3.0.nupkg.sha512",
     "/Users/dily/.nuget/packages/nunit3testadapter/5.2.0/nunit3testadapter.5.2.0.nupkg.sha512",
-    "/Users/dily/.nuget/packages/system.diagnostics.diagnosticsource/5.0.0/system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "/Users/dily/.nuget/packages/system.diagnostics.diagnosticsource/10.0.0-rc.1.25451.107/system.diagnostics.diagnosticsource.10.0.0-rc.1.25451.107.nupkg.sha512",
     "/Users/dily/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "/Users/dily/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512"
   ],

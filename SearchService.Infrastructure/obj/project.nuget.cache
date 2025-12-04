@@ -1,10 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "9PxDLFwnluM=",
+  "dgSpecHash": "LlHeYQ1bJdQ=",
   "success": true,
   "projectFilePath": "/Users/dily/Documents/SearchService/SearchService.Infrastructure/SearchService.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "/Users/dily/.nuget/packages/confluent.kafka/2.12.0/confluent.kafka.2.12.0.nupkg.sha512",
     "/Users/dily/.nuget/packages/dapper/2.1.66/dapper.2.1.66.nupkg.sha512",
+    "/Users/dily/.nuget/packages/elastic.clients.elasticsearch/9.2.2/elastic.clients.elasticsearch.9.2.2.nupkg.sha512",
+    "/Users/dily/.nuget/packages/elastic.transport/0.10.1/elastic.transport.0.10.1.nupkg.sha512",
+    "/Users/dily/.nuget/packages/librdkafka.redist/2.12.0/librdkafka.redist.2.12.0.nupkg.sha512",
+    "/Users/dily/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/dily/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.0-rc.2.25502.107/microsoft.extensions.configuration.abstractions.10.0.0-rc.2.25502.107.nupkg.sha512",
     "/Users/dily/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.0-rc.1.25451.107/microsoft.extensions.dependencyinjection.abstractions.10.0.0-rc.1.25451.107.nupkg.sha512",
     "/Users/dily/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.0-rc.1.25451.107/microsoft.extensions.logging.abstractions.10.0.0-rc.1.25451.107.nupkg.sha512",

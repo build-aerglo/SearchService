@@ -11,12 +11,21 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService.Api.Tests", "SearchService.Api.Tests\SearchService.Api.Tests.csproj", "{9C3732D2-7AE1-4298-9581-CEC352DB1F7B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D957A3C2-9B50-4AFA-BD2B-05E874E49E1E}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		.dockerignore = .dockerignore
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F342D967-C610-426E-B65D-7D8AC780141C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService.Application.Tests", "SearchService.Application.Tests\SearchService.Application.Tests.csproj", "{F3983F92-64A3-44A9-9CA7-C0DF81577E11}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService.Infrastructure.Tests", "SearchService.Infrastructure.Tests\SearchService.Infrastructure.Tests.csproj", "{309D036F-E3BA-4BE2-ACFF-F16373B86D9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C4A5DF0C-AC5D-40D3-8C97-20A04F102EB5}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

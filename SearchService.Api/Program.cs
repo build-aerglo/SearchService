@@ -55,6 +55,19 @@ builder.Services.AddDaprClient();
 // Kafka producer (optional)
 builder.Services.AddSingleton<IKafkaProducer, KafkaProducer>();
 
+// cors
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("FrontendPolicy", policy =>
+    {
+        policy
+            .SetIsOriginAllowed(_ => true)  // allow temporary until production
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials();
+    });
+});
+
 var app = builder.Build();
 
 // Swagger
@@ -88,5 +101,5 @@ using (var scope = app.Services.CreateScope())
         Console.WriteLine(" Elasticsearch is unreachable. Check config.");
     }
 }
-app.UseCors("AllowAll");
+app.UseCors("FrontendPolicy");
 app.Run();

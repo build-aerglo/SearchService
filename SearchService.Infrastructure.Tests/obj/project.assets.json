@@ -1029,22 +1029,6 @@
           }
         }
       },
-      "Npgsql/10.0.0-rc.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "10.0.0-rc.1.25451.107"
-        },
-        "compile": {
-          "lib/net9.0/Npgsql.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Npgsql.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "NUnit/4.4.0": {
         "type": "package",
         "compile": {
@@ -1187,10 +1171,8 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "Confluent.Kafka": "2.12.0",
-          "Dapper": "2.1.66",
           "Elastic.Clients.Elasticsearch": "9.2.2",
           "Microsoft.Extensions.Configuration.Abstractions": "10.0.0-rc.2.25502.107",
-          "Npgsql": "10.0.0-rc.1",
           "SearchService.Application": "1.0.0",
           "SearchService.Domain": "1.0.0"
         },
@@ -2714,23 +2696,6 @@
         "newtonsoft.json.13.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
-      ]
-    },
-    "Npgsql/10.0.0-rc.1": {
-      "sha512": "kORndN04os9mv9l1MtEBoXydufX2TINDR5wgcmh7vsn+0x7AwfrCgOKana3Sz/WlRQ9KsaWHWPnFQ7ZKF+ck7Q==",
-      "type": "package",
-      "path": "npgsql/10.0.0-rc.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "lib/net8.0/Npgsql.dll",
-        "lib/net8.0/Npgsql.xml",
-        "lib/net9.0/Npgsql.dll",
-        "lib/net9.0/Npgsql.xml",
-        "npgsql.10.0.0-rc.1.nupkg.sha512",
-        "npgsql.nuspec",
-        "postgresql.png"
       ]
     },
     "NUnit/4.4.0": {

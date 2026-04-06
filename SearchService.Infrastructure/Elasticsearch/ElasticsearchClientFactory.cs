@@ -21,8 +21,7 @@ public class ElasticsearchClientFactory : IElasticsearchClientFactory
         var nodeUri = DecodeElasticCloudId(_cloudId);
 
         var settings = new ElasticsearchClientSettings(nodeUri)
-            .Authentication(new ApiKey(_apiKey))
-            .DisableDirectStreaming();
+            .Authentication(new ApiKey(_apiKey));
 
         return new ElasticsearchClient(settings);
     }

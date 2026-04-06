@@ -40,7 +40,6 @@
 /Users/dily/Documents/SearchService/SearchService.Infrastructure.Tests/bin/Debug/net9.0/testhost.dll
 /Users/dily/Documents/SearchService/SearchService.Infrastructure.Tests/bin/Debug/net9.0/Moq.dll
 /Users/dily/Documents/SearchService/SearchService.Infrastructure.Tests/bin/Debug/net9.0/Newtonsoft.Json.dll
-/Users/dily/Documents/SearchService/SearchService.Infrastructure.Tests/bin/Debug/net9.0/Npgsql.dll
 /Users/dily/Documents/SearchService/SearchService.Infrastructure.Tests/bin/Debug/net9.0/nunit.framework.dll
 /Users/dily/Documents/SearchService/SearchService.Infrastructure.Tests/bin/Debug/net9.0/nunit.framework.legacy.dll
 /Users/dily/Documents/SearchService/SearchService.Infrastructure.Tests/bin/Debug/net9.0/System.Diagnostics.DiagnosticSource.dll

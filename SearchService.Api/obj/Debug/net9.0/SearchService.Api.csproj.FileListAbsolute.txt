@@ -47,7 +47,6 @@ C:/Users/USER/RiderProjects/SearchService/SearchService.Api/obj/Debug/net9.0/ref
 /Users/dily/Documents/SearchService/SearchService.Api/bin/Debug/net9.0/SearchService.Api.runtimeconfig.json
 /Users/dily/Documents/SearchService/SearchService.Api/bin/Debug/net9.0/SearchService.Api.dll
 /Users/dily/Documents/SearchService/SearchService.Api/bin/Debug/net9.0/SearchService.Api.pdb
-/Users/dily/Documents/SearchService/SearchService.Api/bin/Debug/net9.0/Dapper.dll
 /Users/dily/Documents/SearchService/SearchService.Api/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/dily/Documents/SearchService/SearchService.Api/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
 /Users/dily/Documents/SearchService/SearchService.Api/bin/Debug/net9.0/Microsoft.Extensions.Configuration.dll
@@ -63,7 +62,6 @@ C:/Users/USER/RiderProjects/SearchService/SearchService.Api/obj/Debug/net9.0/ref
 /Users/dily/Documents/SearchService/SearchService.Api/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/dily/Documents/SearchService/SearchService.Api/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
 /Users/dily/Documents/SearchService/SearchService.Api/bin/Debug/net9.0/Microsoft.OpenApi.dll
-/Users/dily/Documents/SearchService/SearchService.Api/bin/Debug/net9.0/Npgsql.dll
 /Users/dily/Documents/SearchService/SearchService.Api/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/dily/Documents/SearchService/SearchService.Api/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/dily/Documents/SearchService/SearchService.Api/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll

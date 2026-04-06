@@ -1,12 +1,11 @@
 using SearchService.Application.DTOs;
-using SearchService.Domain.Models;
 
 namespace SearchService.Application.Interfaces;
 
+// Responsible for document CRUD and search operations against Elasticsearch.
+// Health-check concerns are separated into IElasticsearchHealthService.
 public interface IElasticsearchService
 {
-    Task<bool> TestConnectionAsync();
-
     Task<bool> CreateIndexAsync<T>(string indexName) where T : class;
 
     Task IndexDocumentAsync<T>(string indexName, T document) where T : class;

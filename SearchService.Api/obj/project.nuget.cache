@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "o6iyfSBUyKc=",
+  "dgSpecHash": "RUli8+cpgkU=",
   "success": true,
   "projectFilePath": "/Users/dily/Documents/SearchService/SearchService.Api/SearchService.Api.csproj",
   "expectedPackageFiles": [
     "/Users/dily/.nuget/packages/confluent.kafka/2.12.0/confluent.kafka.2.12.0.nupkg.sha512",
-    "/Users/dily/.nuget/packages/dapper/2.1.66/dapper.2.1.66.nupkg.sha512",
     "/Users/dily/.nuget/packages/dapr.aspnetcore/1.16.1/dapr.aspnetcore.1.16.1.nupkg.sha512",
     "/Users/dily/.nuget/packages/dapr.client/1.16.1/dapr.client.1.16.1.nupkg.sha512",
     "/Users/dily/.nuget/packages/dapr.common/1.16.1/dapr.common.1.16.1.nupkg.sha512",
@@ -66,7 +65,6 @@
     "/Users/dily/.nuget/packages/microsoft.netcore.targets/1.0.1/microsoft.netcore.targets.1.0.1.nupkg.sha512",
     "/Users/dily/.nuget/packages/microsoft.openapi/1.6.25/microsoft.openapi.1.6.25.nupkg.sha512",
     "/Users/dily/.nuget/packages/newtonsoft.json/9.0.1/newtonsoft.json.9.0.1.nupkg.sha512",
-    "/Users/dily/.nuget/packages/npgsql/10.0.0-rc.1/npgsql.10.0.0-rc.1.nupkg.sha512",
     "/Users/dily/.nuget/packages/runtime.native.system/4.0.0/runtime.native.system.4.0.0.nupkg.sha512",
     "/Users/dily/.nuget/packages/swashbuckle.aspnetcore.annotations/9.0.6/swashbuckle.aspnetcore.annotations.9.0.6.nupkg.sha512",
     "/Users/dily/.nuget/packages/swashbuckle.aspnetcore.swagger/9.0.6/swashbuckle.aspnetcore.swagger.9.0.6.nupkg.sha512",

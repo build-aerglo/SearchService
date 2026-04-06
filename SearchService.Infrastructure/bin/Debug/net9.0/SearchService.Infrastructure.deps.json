@@ -9,10 +9,8 @@
       "SearchService.Infrastructure/1.0.0": {
         "dependencies": {
           "Confluent.Kafka": "2.12.0",
-          "Dapper": "2.1.66",
           "Elastic.Clients.Elasticsearch": "9.2.2",
           "Microsoft.Extensions.Configuration.Abstractions": "10.0.0-rc.2.25502.107",
-          "Npgsql": "10.0.0-rc.1",
           "SearchService.Application": "1.0.0",
           "SearchService.Domain": "1.0.0"
         },
@@ -28,14 +26,6 @@
           "lib/net8.0/Confluent.Kafka.dll": {
             "assemblyVersion": "2.12.0.0",
             "fileVersion": "2.12.0.0"
-          }
-        }
-      },
-      "Dapper/2.1.66": {
-        "runtime": {
-          "lib/net8.0/Dapper.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.1.66.48463"
           }
         }
       },
@@ -225,17 +215,6 @@
           }
         }
       },
-      "Npgsql/10.0.0-rc.1": {
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "10.0.0-rc.1.25451.107"
-        },
-        "runtime": {
-          "lib/net9.0/Npgsql.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.0.0"
-          }
-        }
-      },
       "System.Diagnostics.DiagnosticSource/10.0.0-rc.1.25451.107": {
         "runtime": {
           "lib/net9.0/System.Diagnostics.DiagnosticSource.dll": {
@@ -278,13 +257,6 @@
       "sha512": "sha512-UAiz9Xogy9Xqo6Y1ogKesH0tzk03ilw5UmwkVMFqZXQvf/1vFyTyVbzed22xS231UP43Z2aib6hzgruErM74lw==",
       "path": "confluent.kafka/2.12.0",
       "hashPath": "confluent.kafka.2.12.0.nupkg.sha512"
-    },
-    "Dapper/2.1.66": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-/q77jUgDOS+bzkmk3Vy9SiWMaetTw+NOoPAV0xPBsGVAyljd5S6P+4RUW7R3ZUGGr9lDRyPKgAMj2UAOwvqZYw==",
-      "path": "dapper/2.1.66",
-      "hashPath": "dapper.2.1.66.nupkg.sha512"
     },
     "Elastic.Clients.Elasticsearch/9.2.2": {
       "type": "package",
@@ -341,13 +313,6 @@
       "sha512": "sha512-9pm2zqqn5u/OsKs2zgkhJEQQeMx9KkVOWPdHrs7Kt5sfpk+eIh/gmpi/mMH/ljS2T/PFsFdCEtm+GS/6l7zoZA==",
       "path": "microsoft.extensions.primitives/10.0.0-rc.2.25502.107",
       "hashPath": "microsoft.extensions.primitives.10.0.0-rc.2.25502.107.nupkg.sha512"
-    },
-    "Npgsql/10.0.0-rc.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-kORndN04os9mv9l1MtEBoXydufX2TINDR5wgcmh7vsn+0x7AwfrCgOKana3Sz/WlRQ9KsaWHWPnFQ7ZKF+ck7Q==",
-      "path": "npgsql/10.0.0-rc.1",
-      "hashPath": "npgsql.10.0.0-rc.1.nupkg.sha512"
     },
     "System.Diagnostics.DiagnosticSource/10.0.0-rc.1.25451.107": {
       "type": "package",

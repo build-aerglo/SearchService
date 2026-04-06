@@ -1,4 +1,5 @@
 using Microsoft.Extensions.Logging;
+using SearchService.Application.DTOs;
 using SearchService.Application.Interfaces;
 using SearchService.Domain.Constants;
 using SearchService.Domain.Events;
@@ -8,154 +9,115 @@ namespace SearchService.Application.Services;
 
 public class BusinessSearchService(
     IElasticsearchService elasticsearchService,
+    IBusinessIndexMapper mapper,
     ILogger<BusinessSearchService> logger)
     : IBusinessSearchService
 {
-    // ------------------------------------------------------------
-    // BUSINESS CREATED EVENT → INDEX DOCUMENT
-    // ------------------------------------------------------------
+    public async Task<SearchResponseDto<BusinessSearchResultDto>> SearchAsync(string query, int page, int pageSize)
+    {
+        var request = new SearchRequestDto
+        {
+            Query = query,
+            Page = page,
+            PageSize = pageSize
+        };
+
+        var esResult = await elasticsearchService.SearchDocumentsAsync<BusinessIndexDto>(request, IndexNames.Businesses);
+
+        return new SearchResponseDto<BusinessSearchResultDto>
+        {
+            Items = esResult.Items.Select(ToSearchResult).ToList(),
+            Total = esResult.Total,
+            Page = esResult.Page,
+            PageSize = esResult.PageSize
+        };
+    }
+
     public async Task HandleBusinessCreatedAsync(BusinessCreatedEvent businessEvent)
     {
+        ArgumentNullException.ThrowIfNull(businessEvent);
+
         try
         {
-            var dto = MapToIndexDto(businessEvent);
+            var dto = mapper.MapFromCreatedEvent(businessEvent);
 
-            logger.LogInformation(
-                "Indexing new business {BusinessId} into {Index}",
-                businessEvent.Id,
-                IndexNames.Businesses
-            );
+            logger.LogInformation("Indexing new business {BusinessId} into {Index}",
+                businessEvent.Id, IndexNames.Businesses);
 
-            await elasticsearchService.IndexDocumentAsync(
-                IndexNames.Businesses,
-                dto
-            );
+            await elasticsearchService.IndexDocumentAsync(IndexNames.Businesses, dto);
         }
         catch (Exception ex)
         {
-            logger.LogError(
-                ex,
-                "Failed to index business {BusinessId}",
-                businessEvent.Id
-            );
+            logger.LogError(ex, "Failed to index business {BusinessId}", businessEvent.Id);
             throw;
         }
     }
 
-    // ------------------------------------------------------------
-    // BUSINESS UPDATED EVENT → UPDATE DOCUMENT
-    // ------------------------------------------------------------
     public async Task HandleBusinessUpdatedAsync(BusinessUpdatedEvent businessEvent)
     {
+        ArgumentNullException.ThrowIfNull(businessEvent);
+
         try
         {
-            var dto = MapToIndexDto(businessEvent);
+            var dto = mapper.MapFromUpdatedEvent(businessEvent);
 
             await elasticsearchService.UpdateDocumentAsync(
                 IndexNames.Businesses,
                 businessEvent.Id.ToString(),
-                dto
-            );
+                dto);
 
-            logger.LogInformation(
-                "Updated business {BusinessId} in index {Index}",
-                businessEvent.Id,
-                IndexNames.Businesses
-            );
+            logger.LogInformation("Updated business {BusinessId} in index {Index}",
+                businessEvent.Id, IndexNames.Businesses);
         }
         catch (Exception ex)
         {
-            logger.LogError(
-                ex,
-                "Failed to update business {BusinessId} in {Index}",
-                businessEvent.Id,
-                IndexNames.Businesses
-            );
+            logger.LogError(ex, "Failed to update business {BusinessId} in {Index}",
+                businessEvent.Id, IndexNames.Businesses);
             throw;
         }
     }
 
-    // ------------------------------------------------------------
-    // BUSINESS DELETED EVENT → REMOVE DOCUMENT
-    // ------------------------------------------------------------
     public async Task HandleBusinessDeletedAsync(Guid businessId)
     {
         try
         {
-            await elasticsearchService.DeleteDocumentAsync(
-                IndexNames.Businesses,
-                businessId.ToString()
-            );
+            await elasticsearchService.DeleteDocumentAsync(IndexNames.Businesses, businessId.ToString());
 
-            logger.LogInformation(
-                "Deleted business {BusinessId} from {Index}",
-                businessId,
-                IndexNames.Businesses
-            );
+            logger.LogInformation("Deleted business {BusinessId} from {Index}",
+                businessId, IndexNames.Businesses);
         }
         catch (Exception ex)
         {
-            logger.LogError(
-                ex,
-                "Failed to delete business {BusinessId} from {Index}",
-                businessId,
-                IndexNames.Businesses
-            );
+            logger.LogError(ex, "Failed to delete business {BusinessId} from {Index}",
+                businessId, IndexNames.Businesses);
             throw;
         }
     }
 
-    // ------------------------------------------------------------
-    // MAPPING — EVENTS → INDEX DTO
-    // ------------------------------------------------------------
-
-    private static BusinessIndexDto MapToIndexDto(BusinessCreatedEvent evt)
+    private static BusinessSearchResultDto ToSearchResult(BusinessIndexDto dto) => new()
     {
-        return new BusinessIndexDto
-        {
-            BusinessId = evt.Id,
-            Name = evt.Name,
-            Website = evt.Website,
-            AvgRating = evt.AvgRating,
-            ReviewCount = evt.ReviewCount,
-            IsBranch = evt.IsBranch,
-            Categories = evt.Categories
-        };
-    }
-
-    private static BusinessIndexDto MapToIndexDto(BusinessUpdatedEvent evt)
-    {
-        return new BusinessIndexDto
-        {
-            BusinessId = evt.Id,
-            Name = evt.Name,
-            Website = evt.Website,
-            AvgRating = evt.AvgRating,
-            ReviewCount = evt.ReviewCount,
-            IsBranch = evt.IsBranch,
-            Categories = evt.Categories,
-
-            // Additional indexed fields
-            BusinessAddress = evt.BusinessAddress,
-            Logo = evt.Logo,
-            OpeningHours = evt.OpeningHours,
-            BusinessEmail = evt.BusinessEmail,
-            BusinessPhoneNumber = evt.BusinessPhoneNumber,
-            CacNumber = evt.CacNumber,
-            AccessUsername = evt.AccessUsername,
-            AccessNumber = evt.AccessNumber,
-            SocialMediaLinks = evt.SocialMediaLinks,
-            BusinessDescription = evt.BusinessDescription,
-            Media = evt.Media,
-            IsVerified = evt.IsVerified,
-            ReviewLink = evt.ReviewLink,
-            PreferredContactMethod = evt.PreferredContactMethod,
-            Highlights = evt.Highlights,
-            Tags = evt.Tags,
-            AverageResponseTime = evt.AverageResponseTime,
-            ProfileClicks = evt.ProfileClicks,
-            Faqs = evt.Faqs,
-            QrCodeBase64 = evt.QrCodeBase64
-        };
-    }
+        BusinessId = dto.BusinessId,
+        Name = dto.Name,
+        Website = dto.Website,
+        IsBranch = dto.IsBranch,
+        AvgRating = dto.AvgRating,
+        ReviewCount = dto.ReviewCount,
+        Categories = dto.Categories,
+        BusinessAddress = dto.BusinessAddress,
+        Logo = dto.Logo,
+        OpeningHours = dto.OpeningHours,
+        BusinessEmail = dto.BusinessEmail,
+        BusinessPhoneNumber = dto.BusinessPhoneNumber,
+        SocialMediaLinks = dto.SocialMediaLinks,
+        BusinessDescription = dto.BusinessDescription,
+        Media = dto.Media,
+        IsVerified = dto.IsVerified,
+        ReviewLink = dto.ReviewLink,
+        PreferredContactMethod = dto.PreferredContactMethod,
+        Highlights = dto.Highlights,
+        Tags = dto.Tags,
+        AverageResponseTime = dto.AverageResponseTime,
+        ProfileClicks = dto.ProfileClicks,
+        Faqs = dto.Faqs
+    };
 }

@@ -183,10 +183,6 @@
               "target": "Package",
               "version": "[2.12.0, )"
             },
-            "Dapper": {
-              "target": "Package",
-              "version": "[2.1.66, )"
-            },
             "Elastic.Clients.Elasticsearch": {
               "target": "Package",
               "version": "[9.2.2, )"
@@ -194,10 +190,6 @@
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[10.0.0-rc.2.25502.107, )"
-            },
-            "Npgsql": {
-              "target": "Package",
-              "version": "[10.0.0-rc.1, )"
             }
           },
           "imports": [

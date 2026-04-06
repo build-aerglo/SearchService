@@ -13,6 +13,8 @@
 /Users/dily/Documents/SearchService/SearchService.Application.Tests/bin/Debug/net9.0/Castle.Core.dll
 /Users/dily/Documents/SearchService/SearchService.Application.Tests/bin/Debug/net9.0/Microsoft.ApplicationInsights.dll
 /Users/dily/Documents/SearchService/SearchService.Application.Tests/bin/Debug/net9.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
+/Users/dily/Documents/SearchService/SearchService.Application.Tests/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/dily/Documents/SearchService/SearchService.Application.Tests/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
 /Users/dily/Documents/SearchService/SearchService.Application.Tests/bin/Debug/net9.0/Microsoft.Testing.Extensions.Telemetry.dll
 /Users/dily/Documents/SearchService/SearchService.Application.Tests/bin/Debug/net9.0/Microsoft.Testing.Extensions.TrxReport.Abstractions.dll
 /Users/dily/Documents/SearchService/SearchService.Application.Tests/bin/Debug/net9.0/Microsoft.Testing.Extensions.VSTestBridge.dll
@@ -31,6 +33,7 @@
 /Users/dily/Documents/SearchService/SearchService.Application.Tests/bin/Debug/net9.0/Newtonsoft.Json.dll
 /Users/dily/Documents/SearchService/SearchService.Application.Tests/bin/Debug/net9.0/nunit.framework.dll
 /Users/dily/Documents/SearchService/SearchService.Application.Tests/bin/Debug/net9.0/nunit.framework.legacy.dll
+/Users/dily/Documents/SearchService/SearchService.Application.Tests/bin/Debug/net9.0/System.Diagnostics.DiagnosticSource.dll
 /Users/dily/Documents/SearchService/SearchService.Application.Tests/bin/Debug/net9.0/System.Diagnostics.EventLog.dll
 /Users/dily/Documents/SearchService/SearchService.Application.Tests/bin/Debug/net9.0/cs/Microsoft.Testing.Extensions.Telemetry.resources.dll
 /Users/dily/Documents/SearchService/SearchService.Application.Tests/bin/Debug/net9.0/de/Microsoft.Testing.Extensions.Telemetry.resources.dll
@@ -182,6 +185,3 @@
 /Users/dily/Documents/SearchService/SearchService.Application.Tests/obj/Debug/net9.0/SearchService.Application.Tests.pdb
 /Users/dily/Documents/SearchService/SearchService.Application.Tests/obj/Debug/net9.0/SearchService.Application.Tests.genruntimeconfig.cache
 /Users/dily/Documents/SearchService/SearchService.Application.Tests/obj/Debug/net9.0/ref/SearchService.Application.Tests.dll
-/Users/dily/Documents/SearchService/SearchService.Application.Tests/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
-/Users/dily/Documents/SearchService/SearchService.Application.Tests/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
-/Users/dily/Documents/SearchService/SearchService.Application.Tests/bin/Debug/net9.0/System.Diagnostics.DiagnosticSource.dll

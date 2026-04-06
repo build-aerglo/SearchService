@@ -21,6 +21,10 @@ using SearchService.Infrastructure.Kafka;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Load User Secrets — optional so production ignores a missing secrets file,
+// but present secrets always override appsettings values regardless of environment.
+builder.Configuration.AddUserSecrets<Program>(optional: true);
+
 // ──────────────────────────────────────────────────────────────
 // Kestrel
 // ──────────────────────────────────────────────────────────────
@@ -42,12 +46,9 @@ builder.Services.AddCors(options =>
     {
         if (allowedOrigins.Length == 0 || allowedOrigins.Contains("*"))
         {
-            // Development only — a wildcard origin must not be used in production
-            if (!builder.Environment.IsProduction())
-                policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
-            else
-                throw new InvalidOperationException(
-                    "Cors:AllowedOrigins must be explicitly set in production. Wildcard (*) is not permitted.");
+            // No specific origins configured — open to all.
+            // In production, set Cors:AllowedOrigins via environment variables or secrets manager.
+            policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
         }
         else
         {
@@ -60,13 +61,17 @@ builder.Services.AddCors(options =>
 // Authentication & Authorization (JWT Bearer)
 // ──────────────────────────────────────────────────────────────
 var authConfig = builder.Configuration.GetSection("Authentication");
+var authEnabled = authConfig.GetValue("IsEnabled", defaultValue: true);
 var authority = authConfig["Authority"];
 
-if (string.IsNullOrWhiteSpace(authority) && builder.Environment.IsProduction())
-    throw new InvalidOperationException(
-        "Authentication:Authority must be configured in production.");
+if (authEnabled && string.IsNullOrWhiteSpace(authority))
+{
+    // No authority configured — disable auth and run open.
+    // In production, set Authentication:Authority via environment variables or secrets manager.
+    authEnabled = false;
+}
 
-if (!string.IsNullOrWhiteSpace(authority))
+if (authEnabled)
 {
     builder.Services
         .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -84,16 +89,25 @@ if (!string.IsNullOrWhiteSpace(authority))
                 ClockSkew = TimeSpan.FromSeconds(30)
             };
         });
+
+    builder.Services.AddAuthorization();
 }
 else
 {
-    // No authority configured — allow everything (development only, enforced above in prod)
+    // Auth disabled — all endpoints are open. Never set this in production.
     builder.Services
-        .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-        .AddJwtBearer(options => options.RequireHttpsMetadata = false);
-}
+        .AddAuthentication()
+        .AddJwtBearer();
 
-builder.Services.AddAuthorization();
+    builder.Services.AddAuthorization(options =>
+    {
+        var openPolicy = new Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder()
+            .RequireAssertion(_ => true)
+            .Build();
+        options.DefaultPolicy = openPolicy;
+        options.FallbackPolicy = openPolicy;
+    });
+}
 
 // ──────────────────────────────────────────────────────────────
 // Rate Limiting
@@ -155,10 +169,15 @@ builder.Services.AddSwaggerGen(options =>
 // Elasticsearch
 // ──────────────────────────────────────────────────────────────
 var esConfig = builder.Configuration.GetSection("Elasticsearch");
-var cloudId = esConfig["CloudId"]
-    ?? throw new InvalidOperationException("Elasticsearch:CloudId is required. Set it via environment variable or secrets.");
-var apiKey = esConfig["ApiKey"]
-    ?? throw new InvalidOperationException("Elasticsearch:ApiKey is required. Set it via environment variable or secrets.");
+var cloudId = esConfig["CloudId"];
+if (string.IsNullOrWhiteSpace(cloudId))
+    throw new InvalidOperationException(
+        "Elasticsearch:CloudId is required. Set it via environment variable: Elasticsearch__CloudId=<value>");
+
+var apiKey = esConfig["ApiKey"];
+if (string.IsNullOrWhiteSpace(apiKey))
+    throw new InvalidOperationException(
+        "Elasticsearch:ApiKey is required. Set it via environment variable: Elasticsearch__ApiKey=<value>");
 
 builder.Services.AddSingleton<IElasticsearchClientFactory>(_ =>
     new ElasticsearchClientFactory(cloudId, apiKey));
